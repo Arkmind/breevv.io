@@ -4,11 +4,16 @@ import './style.css'
 
 interface ButtonProps {
     children?: string,
+    className?: Array<string>,
 }
 
-function Button({ children }: ButtonProps) {
+function Button({ children, className = [] }: ButtonProps) {
+    const classes = ['btn'].concat(className)
+
+    console.log(className)  
+    
     return (
-        <button className="btn">{children}</button>
+        <button className={classes.join(' ')}>{children}</button>
     );
 }
 

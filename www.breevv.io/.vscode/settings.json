@@ -1,3 +1,11 @@
 {
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "css.customData": [".vscode/css_custom_data.json"],
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+        "javascript": "html"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    }
 }

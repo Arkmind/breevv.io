@@ -33,7 +33,7 @@ function VodHeader() {
                   <img src={`https://image.tmdb.org/t/p/original${e.logo_path}`} alt={e.name}></img>
                ))}
             </div>
-            <Button>Regarder</Button>
+            <Button className={['my-4']}>Regarder</Button>
          </div>
       </header>
    );
